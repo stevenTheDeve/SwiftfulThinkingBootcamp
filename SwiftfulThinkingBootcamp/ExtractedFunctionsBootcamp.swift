@@ -11,6 +11,7 @@ import SwiftUI
 struct ExtractedFunctionsBootcamp: View {
     
     @State var backgroundColor: Color = Color.pink
+    @State var amountClicked = 0
 
     var body: some View {
         ZStack {
@@ -24,7 +25,7 @@ struct ExtractedFunctionsBootcamp: View {
     
     var contentLayer: some View {
         VStack {
-            Text ("Title")
+            Text ("\(amountClicked) tapped")
                 .font(.largeTitle)
             
             Button   {
@@ -43,7 +44,8 @@ struct ExtractedFunctionsBootcamp: View {
     
     func buttonPressed () {
         backgroundColor = .yellow
-    }
+        amountClicked += 1
+    } 
 }
 
 struct ExtractedFunctionsBootcamp_Previews: PreviewProvider {
