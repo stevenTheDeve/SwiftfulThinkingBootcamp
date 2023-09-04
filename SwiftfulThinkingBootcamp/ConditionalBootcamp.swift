@@ -11,6 +11,7 @@ struct ConditionalBootcamp: View {
     
     @State var showCircle: Bool = false
     @State var showRectangle: Bool = false
+    @State var isLoading: Bool = false
     
     var body: some View {
         VStack (spacing: 20) {
@@ -23,17 +24,27 @@ struct ConditionalBootcamp: View {
                 showRectangle.toggle()
             }
             if showCircle {
-                // ! = if not
-                // ex !showCircle
+                 
                 Circle ()
                     .frame(width: 100, height: 200)
-            } else if showRectangle {
+            }
+            
+            if showRectangle {
                 Rectangle ()
                     .frame(width: 100, height: 100)
-            } else {
+            }
+            if showCircle || showRectangle {
                 RoundedRectangle (cornerRadius: 25.0)
                     .frame(width: 200, height: 100)
             }
+            
+            Button ("IS LOADING: \(isLoading.description)") {
+                isLoading.toggle()
+            }
+            if isLoading {
+                ProgressView ()
+            }
+            
             
             Spacer ()
         }
