@@ -13,22 +13,69 @@ struct ListBootcamp: View {
         "apples", "orange", "banana", "peach"
     ]
     
+    @State var veggies: [String] = [
+        "tomato", "potato", "carrot"
+    
+    ]
+    
     var body: some View {
-        List {
-            Section(
-                header: Text("Fruits")) {
-                    ForEach(fruits, id: \.self) { fruit in
-                        Text (fruit.capitalized)
+        NavigationView {
+            List {
+                Section(
+                    header:
+                        HStack {
+                            Text("Fruits")
+                            Image(systemName: "flame.fill")
+                        }
+                        .font(.headline)
+                        .foregroundColor(.red)
+                ) {
+                        ForEach(fruits, id: \.self) { fruit in
+                            Text (fruit.capitalized)
+                                .font(.caption)
+                                .foregroundColor(.white)
+                                .padding(.vertical)
+                        }
+                        .onDelete(perform: delete)
+                        .onMove(perform: move)
+                        .listRowBackground(Color.blue)
                     }
-                    .onDelete(perform: { indexSet in
-                        delete(indexSet: indexSet)
-                    })
+                Section(header: Text ("veggies")) {
+                    ForEach(veggies, id: \.self) { veggies in
+                        Text(veggies.capitalized)
+                            .font(.caption)
+                            .foregroundColor(.white)
+                            .padding(.vertical)
+                    }
+                    .listRowBackground(Color.green)
                 }
+            }
+            .accentColor(.purple)
+//            .listStyle(GroupedListStyle())
+            .navigationTitle("Grocery List")
+            .navigationBarItems(leading: EditButton(),trailing: addButton)
         }
+        .accentColor(.red)
+    }
+    
+    var addButton: some View {
+        Button ("Add", action: {
+            add()
+        })
     }
     
     func delete (indexSet: IndexSet) {
         fruits.remove(atOffsets: indexSet)
+    }
+    
+    func move  (indices: IndexSet, newOffset: Int) {
+        fruits.move(fromOffsets: indices, toOffset: newOffset)
+        
+    }
+    
+    func add () {
+        fruits.append("Coconut")
+        
     }
 }
 
