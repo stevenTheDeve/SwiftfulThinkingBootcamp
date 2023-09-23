@@ -18,10 +18,6 @@ struct ListBootcamp: View {
     
     ]
     
-    @State var veggies: [String] = [
-        "tomato", "potato", "carrot"
-    
-    ]
     
     var body: some View {
         NavigationView {
