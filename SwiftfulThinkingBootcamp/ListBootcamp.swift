@@ -10,7 +10,7 @@ import SwiftUI
 struct ListBootcamp: View {
     
     @State var fruits: [String] = [
-        "apples", "orange", "banana", "peach"
+        "apples", "orange", "banana", "peach", "blueberries"
     ]
     
     @State var veggies: [String] = [
