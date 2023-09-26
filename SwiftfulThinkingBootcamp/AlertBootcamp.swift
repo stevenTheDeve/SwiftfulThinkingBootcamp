@@ -13,7 +13,7 @@ struct AlertBootcamp: View {
     @State var alertType: MyAlerts? = nil
 //    @State var alertTitle: String = ""
 //    @State var alertMessage: String = ""
-    @State var backgroundColor: Color = Color.yellow
+    @State var backgroundColor: Color = Color.red
     
     enum MyAlerts {
         case success
