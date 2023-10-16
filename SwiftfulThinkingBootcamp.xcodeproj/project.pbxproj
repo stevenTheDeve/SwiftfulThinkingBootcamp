@@ -52,6 +52,7 @@
 		F3D702772ACAC366009FC82F /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D702762ACAC366009FC82F /* PickerBootcamp.swift */; };
 		F3DC316D2AC356C200208359 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC316C2AC356C200208359 /* AlertBootcamp.swift */; };
 		F3DC316F2AC361AF00208359 /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC316E2AC361AF00208359 /* ActionSheetBootcamp.swift */; };
+		F3F4D0192ADD46950064ED4C /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4D0182ADD46950064ED4C /* SliderBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +102,7 @@
 		F3D702762ACAC366009FC82F /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		F3DC316C2AC356C200208359 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		F3DC316E2AC361AF00208359 /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
+		F3F4D0182ADD46950064ED4C /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				F38A77E52AD7DB0200DA77DD /* ColorPickerBootcamp.swift */,
 				F38A77E72AD951BD00DA77DD /* DatePickerBootcamp.swift */,
 				F38A77E92AD9560100DA77DD /* StepperBootcamp.swift */,
+				F3F4D0182ADD46950064ED4C /* SliderBootcamp.swift */,
 				F3BE62042A81A3FF0028D723 /* EstevanBootcamp.swift */,
 				F36CA2392A66712C00E7837A /* Assets.xcassets */,
 				F36CA23B2A66712C00E7837A /* Preview Content */,
@@ -291,6 +294,7 @@
 				F3D702732AC9324C009FC82F /* TextEditorBootcamp.swift in Sources */,
 				F3BE61F52A79AFC70028D723 /* SpacerBootcamp.swift in Sources */,
 				F38A77E62AD7DB0200DA77DD /* ColorPickerBootcamp.swift in Sources */,
+				F3F4D0192ADD46950064ED4C /* SliderBootcamp.swift in Sources */,
 				F3AE05CE2AAF8E0800F96D75 /* NavigationViewBootcamp.swift in Sources */,
 				F3DC316D2AC356C200208359 /* AlertBootcamp.swift in Sources */,
 				F3D702752ACA40B9009FC82F /* ToggleBootcamp.swift in Sources */,
