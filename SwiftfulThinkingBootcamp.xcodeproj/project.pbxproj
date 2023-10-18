@@ -55,6 +55,7 @@
 		F3E0DDD62ADD53D10054A35B /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0DDD52ADD53D10054A35B /* TabViewBootcamp.swift */; };
 		F3E0DDD82ADF09930054A35B /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0DDD72ADF09930054A35B /* DarkModeBootcamp.swift */; };
 		F3E0DDDA2ADF10250054A35B /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0DDD92ADF10250054A35B /* OnAppearBootcamp.swift */; };
+		F3E0DDDC2ADFA44B0054A35B /* IfLetGuardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0DDDB2ADFA44B0054A35B /* IfLetGuardBootcamp.swift */; };
 		F3F4D0192ADD46950064ED4C /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4D0182ADD46950064ED4C /* SliderBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +109,7 @@
 		F3E0DDD52ADD53D10054A35B /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
 		F3E0DDD72ADF09930054A35B /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
 		F3E0DDD92ADF10250054A35B /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
+		F3E0DDDB2ADFA44B0054A35B /* IfLetGuardBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardBootcamp.swift; sourceTree = "<group>"; };
 		F3F4D0182ADD46950064ED4C /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,6 +189,7 @@
 				F3E0DDD52ADD53D10054A35B /* TabViewBootcamp.swift */,
 				F3E0DDD72ADF09930054A35B /* DarkModeBootcamp.swift */,
 				F3E0DDD92ADF10250054A35B /* OnAppearBootcamp.swift */,
+				F3E0DDDB2ADFA44B0054A35B /* IfLetGuardBootcamp.swift */,
 				F3BE62042A81A3FF0028D723 /* EstevanBootcamp.swift */,
 				F36CA2392A66712C00E7837A /* Assets.xcassets */,
 				F36CA23B2A66712C00E7837A /* Preview Content */,
@@ -287,6 +290,7 @@
 				F3D4D3792A68F3560023B1D5 /* ShapesBootcamp.swift in Sources */,
 				F3BE61F72A7BCCF50028D723 /* InitializerBootcamp.swift in Sources */,
 				F3AE05C82AAC543500F96D75 /* TransitionBootcamp.swift in Sources */,
+				F3E0DDDC2ADFA44B0054A35B /* IfLetGuardBootcamp.swift in Sources */,
 				F36CA2382A66712B00E7837A /* ContentView.swift in Sources */,
 				F3BE62012A80F13A0028D723 /* ButtonsBootcamp.swift in Sources */,
 				F3BE61FF2A80EAC70028D723 /* SafeAreaBootcamp.swift in Sources */,
