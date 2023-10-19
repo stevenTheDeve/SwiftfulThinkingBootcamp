@@ -45,6 +45,7 @@
 		F3BE62052A81A3FF0028D723 /* EstevanBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BE62042A81A3FF0028D723 /* EstevanBootcamp.swift */; };
 		F3C6FA222AE05AEE00985250 /* TapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C6FA212AE05AEE00985250 /* TapGestureBootcamp.swift */; };
 		F3C6FA242AE05EB300985250 /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C6FA232AE05EB300985250 /* ModelBootcamp.swift */; };
+		F3C6FA262AE150B300985250 /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C6FA252AE150B300985250 /* ViewModelBootcamp.swift */; };
 		F3CC608F2AB45E82008D5B9E /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC608E2AB45E82008D5B9E /* ListBootcamp.swift */; };
 		F3D4D3792A68F3560023B1D5 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D4D3782A68F3560023B1D5 /* ShapesBootcamp.swift */; };
 		F3D4D37B2A6A76010023B1D5 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D4D37A2A6A76010023B1D5 /* ColorsBootcamp.swift */; };
@@ -101,6 +102,7 @@
 		F3BE62042A81A3FF0028D723 /* EstevanBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstevanBootcamp.swift; sourceTree = "<group>"; };
 		F3C6FA212AE05AEE00985250 /* TapGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootcamp.swift; sourceTree = "<group>"; };
 		F3C6FA232AE05EB300985250 /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
+		F3C6FA252AE150B300985250 /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		F3CC608E2AB45E82008D5B9E /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		F3D4D3782A68F3560023B1D5 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		F3D4D37A2A6A76010023B1D5 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				F3E0DDDB2ADFA44B0054A35B /* IfLetGuardBootcamp.swift */,
 				F3C6FA212AE05AEE00985250 /* TapGestureBootcamp.swift */,
 				F3C6FA232AE05EB300985250 /* ModelBootcamp.swift */,
+				F3C6FA252AE150B300985250 /* ViewModelBootcamp.swift */,
 				F3BE62042A81A3FF0028D723 /* EstevanBootcamp.swift */,
 				F36CA2392A66712C00E7837A /* Assets.xcassets */,
 				F36CA23B2A66712C00E7837A /* Preview Content */,
@@ -312,6 +315,7 @@
 				F3B27D252AC57F0B000D9EE0 /* ContextMenuBootcamp.swift in Sources */,
 				F38A77E82AD951BD00DA77DD /* DatePickerBootcamp.swift in Sources */,
 				F3DC316F2AC361AF00208359 /* ActionSheetBootcamp.swift in Sources */,
+				F3C6FA262AE150B300985250 /* ViewModelBootcamp.swift in Sources */,
 				F3B27D272AC6C881000D9EE0 /* TextFieldBootcamp.swift in Sources */,
 				F3E0DDDA2ADF10250054A35B /* OnAppearBootcamp.swift in Sources */,
 				F3D702732AC9324C009FC82F /* TextEditorBootcamp.swift in Sources */,
