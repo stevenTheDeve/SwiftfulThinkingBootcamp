@@ -19,6 +19,10 @@ class FruitViewModel: ObservableObject {
    @Published var fruitArray: [FruitModel] = []
    @Published var isLoading: Bool = false
     
+    init() {
+        getFruits()
+    }
+    
     func getFruits () {
         let fruit1 = FruitModel(name: "Orange", count: 1)
         let fruit2 = FruitModel(name: "Banana", count: 2)
@@ -41,8 +45,9 @@ class FruitViewModel: ObservableObject {
 
 struct ViewModelBootcamp: View {
  
-    
-   @ObservedObject var fruitViewModel: FruitViewModel = FruitViewModel ()
+    // @StateObject  -> USE THIS ON CREATION/ INIT
+    //@ObserveObject  -> USE THIS FOR SUBVIEWS
+   @StateObject var fruitViewModel: FruitViewModel = FruitViewModel ()
     
     var body: some View {
         NavigationView {
@@ -65,8 +70,32 @@ struct ViewModelBootcamp: View {
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Fruit List")
-            .onAppear{
-                fruitViewModel.getFruits()
+            .navigationBarItems(trailing:
+                                    NavigationLink(destination: RandomScreen(fruitViewModel: fruitViewModel),
+                                                   label: {
+                Image(systemName: "arrow.right")
+                    .font(.title)
+            })
+            )
+        }
+    }
+}
+
+struct RandomScreen: View {
+    
+    @Environment(\.presentationMode) var presentaionMode
+    @ObservedObject var fruitViewModel: FruitViewModel
+    
+    var body: some View {
+        ZStack {
+            Color.green.ignoresSafeArea()
+            
+            VStack {
+                ForEach(fruitViewModel.fruitArray) { fruit in
+                    Text(fruit.name)
+                        .foregroundColor(.white)
+                        .font(.headline)
+                }
             }
         }
     }
