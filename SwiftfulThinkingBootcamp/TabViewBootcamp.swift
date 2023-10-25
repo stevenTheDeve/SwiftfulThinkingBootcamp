@@ -49,7 +49,7 @@ struct HomeView: View {
     
     var body: some View {
         ZStack{
-            Color.red.ignoresSafeArea()
+            Color.red.ignoresSafeArea( edges: .top)
             VStack {
                 Text("Home Tab")
                     .font(.largeTitle)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F303FAFF2AE719FF00315536 /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F303FAFE2AE719FF00315536 /* EnvironmentObjectBootcamp.swift */; };
 		F332CB042A9DC04A006E4BEF /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F332CB032A9DC04A006E4BEF /* ExtractSubviewsBootcamp.swift */; };
 		F332CB062A9F1F6E006E4BEF /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F332CB052A9F1F6E006E4BEF /* BindingBootcamp.swift */; };
 		F332CB082AA1C71E006E4BEF /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F332CB072AA1C71E006E4BEF /* ConditionalBootcamp.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F303FAFE2AE719FF00315536 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		F332CB032A9DC04A006E4BEF /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
 		F332CB052A9F1F6E006E4BEF /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		F332CB072AA1C71E006E4BEF /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				F3C6FA212AE05AEE00985250 /* TapGestureBootcamp.swift */,
 				F3C6FA232AE05EB300985250 /* ModelBootcamp.swift */,
 				F3C6FA252AE150B300985250 /* ViewModelBootcamp.swift */,
+				F303FAFE2AE719FF00315536 /* EnvironmentObjectBootcamp.swift */,
 				F3BE62042A81A3FF0028D723 /* EstevanBootcamp.swift */,
 				F36CA2392A66712C00E7837A /* Assets.xcassets */,
 				F36CA23B2A66712C00E7837A /* Preview Content */,
@@ -331,6 +334,7 @@
 				F3AE05CA2AAD9EBB00F96D75 /* SheetsBootcamp.swift in Sources */,
 				F3D702772ACAC366009FC82F /* PickerBootcamp.swift in Sources */,
 				F3AE05C22AA6828C00F96D75 /* TernaryBootcamp.swift in Sources */,
+				F303FAFF2AE719FF00315536 /* EnvironmentObjectBootcamp.swift in Sources */,
 				F386613D2A72504B0005561B /* frameBootcamp.swift in Sources */,
 				F36C6FCE2A6E638500DF0793 /* IconsBootcamp.swift in Sources */,
 				F332CB042A9DC04A006E4BEF /* ExtractSubviewsBootcamp.swift in Sources */,
