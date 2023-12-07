@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct AsyncImageBootcamp: View {
+    
+    let url = URL(string: "https://picsum.photos/400")
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        AsyncImage(url: url, content: { returnedImage in
+            returnedImage
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 100)
+                .cornerRadius(20)
+        }, placeholder: {
+            ProgressView()
+        })
     }
 }
 
