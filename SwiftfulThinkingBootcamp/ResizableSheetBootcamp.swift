@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct ResizableSheetBootcamp: View {
+    
+    @State private var showSheet: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Click me!") {
+            showSheet.toggle()
+        }
+        .sheet(isPresented: $showSheet) {
+            MyNextView()
+                .presentationDetents([.large])
+        }
+    }
+}
+
+struct MyNextView: View {
+    
+    var body: some View {
+        ZStack {
+            Color.red.ignoresSafeArea()
+            Text("Hello, world")
+        }
     }
 }
 

@@ -15,7 +15,7 @@ struct ToolbarBootcamp: View {
     var body: some View {
         NavigationStack (path: $paths){
             ZStack {
-                Color.black.ignoresSafeArea()
+                Color.white.ignoresSafeArea()
                 
                 ScrollView {
                     TextField("Placeholder", text: $text)

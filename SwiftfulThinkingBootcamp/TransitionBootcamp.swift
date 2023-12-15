@@ -24,7 +24,7 @@ struct TransitionBootcamp: View {
                 RoundedRectangle (cornerRadius: 30)
                     .frame(height: UIScreen.main.bounds.height * 0.5)
                     .transition(.slide)
-                    .animation(.easeInOut)
+                    .animation(.easeInOut, value: showView)
                 
             }
             
